@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: ;
+}
+
+h1, h2, h3, h4, h5, h6{
+
+}
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+.logo{
+    
+}
+
+.homeImg{
+    background-image: url("/assets/img/homeHeader.png");
+   
+}
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+   
+}
+
+.hero{
+    
+}
+
+.homeSectionContainer{
+    
+}
+
+.aboutUs{
+    
+}
+
+.successStories{
+    
+}
+
+.footer{
+    
+}
