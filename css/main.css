@@ -1,51 +1,48 @@
 body{
     margin: 0;
-    font-family: ;
+    font-family: 'Poppins',sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6{
-
+    font-family: 'Montserrat',sans-serif;
 }
 
 @font-face {
-    font-family: ;
-    src: url();
-}
-
-.logo{
-    
-}
-
-.homeImg{
-    background-image: url("/assets/img/homeHeader.png");
-   
+    font-family: "TitleFont";
+    src: url("../assets/fonts/mythology_of_egypt/Mythology\ Of\ Egypt.otf");
 }
 
 .navbar{
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
+
     padding: 20px 40px;
-    background-color: rgba(255, 255, 255, 0.5);
-   
+    background-color: #ffffff;
+    border: 1px solid #ddd;
 }
 
-.hero{
-    
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.logo{
+
+}
+
+.homeHeader{
+    background-image: url(/assets/img/homeHeader.png);
 }
 
 .homeSectionContainer{
-    
-}
-
-.aboutUs{
-    
-}
-
-.successStories{
-    
-}
-
-.footer{
     
 }
